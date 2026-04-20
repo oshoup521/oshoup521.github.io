@@ -1,3 +1,31 @@
-theme: jekyll-theme-minimal
-title: Oshoupadhyay's Homepage
-description: My personal GitHub Pages site
+title: Osho Upadhyay
+tagline: Software Developer | Gen AI | Agentic AI
+description: >-
+  Portfolio of Osho Upadhyay — Software Engineer and Node.js backend
+  developer based in Pune, India, working with Gen AI and Agentic AI.
+author: Osho Upadhyay
+email: oshoupadhyayindia@gmail.com
+phone: "+91-9044127435"
+location: Pune, Maharashtra, India
+url: "https://oshoup521.github.io"
+
+social:
+  github: https://github.com/oshoup521
+  linkedin: https://www.linkedin.com/in/osho-upadhyay-545001b1/
+  twitter: https://twitter.com/oshoup521
+
+nav:
+  - { title: Home,       url: "/" }
+  - { title: About,      url: "/about/" }
+  - { title: Experience, url: "/experience/" }
+  - { title: Projects,   url: "/projects/" }
+  - { title: Blog,       url: "/blog/" }
+  - { title: Contact,    url: "/contact/" }
+
+permalink: /:title/
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md

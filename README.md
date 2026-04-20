@@ -1,18 +1,26 @@
-# Oshoupadhyay's Homepage
+# oshoup521.github.io
 
-Namaste! Mera naam **Oshoupadhyay** hai.
+Personal portfolio of **Osho Upadhyay** — Software Engineer · Gen AI · Agentic AI.
 
-## About Me
+Live site (primary): [oshoupadhyay.in](https://oshoupadhyay.in)
+GitHub Pages mirror: [oshoup521.github.io](https://oshoup521.github.io)
 
-- Developer | Explorer | Creator
-- Passionate about building cool stuff
-- This is my personal GitHub Pages site
+## Stack
 
-## Projects
+Static site built with Jekyll (GitHub Pages native). Custom layout and CSS — no theme gem required.
 
-- Project 1 — Coming soon
-- Project 2 — Coming soon
+## Structure
 
-## Contact
+- `_config.yml` — site metadata and nav
+- `_layouts/default.html` — page shell (header, footer, nav)
+- `assets/css/style.css` — all styles
+- `index.html` — home / hero
+- `about.html`, `experience.html`, `projects.html`, `blog.html`, `contact.html`
 
-Find me on [GitHub](https://github.com/oshoup521)
+## Local preview
+
+```bash
+bundle exec jekyll serve
+```
+
+Or just push to `main` — GitHub Pages builds and deploys automatically.
